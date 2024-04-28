@@ -21,7 +21,7 @@
         <figure class="image mb-4">
           <img v-bind:src= "product.get_thumbnail">
         </figure>
-        <h3 class="is-size-4">Price ${{ product.price }}</h3>
+        <h3 class="is-size-4">Price ৳{{ product.price }}</h3>
         <h3 class="is-size-3">{{ product.name }}</h3>
 
         view Details
