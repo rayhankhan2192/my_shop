@@ -63,6 +63,7 @@ ROOT_URLCONF = 'apphome.urls'
 
 CORS_ALLOWED_ORIGINS = [
     "http://192.168.0.108:8080",
+    "http://192.168.0.105",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
